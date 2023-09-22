@@ -8,6 +8,8 @@ interface HomeProps {
 
 function Home( {name, profession, imgSrc} : HomeProps) {
 
+  console.log(imgSrc)
+  
   return (
     <section className='home' id='Home'>
       <div className="home-content">
