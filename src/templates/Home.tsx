@@ -3,7 +3,7 @@ import ResBtn from "../components/ResBtn";
 interface HomeProps {
   name: string,
   profession: string;
-  imgSrc: string
+  imgSrc?: string
 }
 
 function Home( {name, profession, imgSrc} : HomeProps) {
@@ -27,7 +27,7 @@ function Home( {name, profession, imgSrc} : HomeProps) {
             <ResBtn children="Download CV"/>
         </div>
           <div className="img-container">
-            <img src={`.${imgSrc}`} alt=""/>
+            <img src={`.`} alt=""/>
           </div>
       </div>
     </section>
