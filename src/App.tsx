@@ -12,7 +12,7 @@ function App() {
   const person = {
     name: 'Karl Guerrero',
     profession: 'PhotoGrapher',
-    imgSrc: MyPic.toString()
+    imgSrc: MyPic
   }
 
   return (
