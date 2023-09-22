@@ -8,7 +8,8 @@ import pic4 from '../assets/portfolio5.jpg'
 import pic5 from '../assets/portfolio6.jpg'
 
 export default function PortfolioPage() {
-    const imgArr = [pic0, pic1, pic2, pic3, pic4 ,pic5]
+    const imgArr = [pic0.toString(), pic1.toString(), pic2.toString(), 
+                    pic3.toString(), pic4.toString() ,pic5.toString()]
 
   return (
     <section className='portfolio' id='Portfolio'>

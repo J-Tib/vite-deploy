@@ -122,7 +122,6 @@ section {
   border-radius: 2rem;
   box-shadow: 0 0 1rem var(--main-color);
   transition: 0.3s;
-  margin: 10px;
 }
 .btn {
   animation: slideDown ease-in-out 0.6s;
