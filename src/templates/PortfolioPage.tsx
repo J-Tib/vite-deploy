@@ -1,6 +1,6 @@
 import { data } from'../data/PortfolioData'
 import Portfolio from "../components/Portfolio"
-import pic0 from '../assets/portfolio2.jpg'
+import pic0 from '../assets/portfolio1.jpg'
 import pic1 from '../assets/portfolio2.jpg'
 import pic2 from '../assets/portfolio3.jpg'
 import pic3 from '../assets/portfolio4.jpg'
