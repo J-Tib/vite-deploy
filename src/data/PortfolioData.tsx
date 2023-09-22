@@ -1,21 +1,21 @@
 
 export const data = [
     {
-        skills: 'Web Design',
+        skills: 'Glossy Web Design',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
         link: '#'
     },
     {
-        skills: 'Web Design',
+        skills: 'Vanilla JS - Google Form',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
         link: ''
     },
     {
-        skills: 'Web Design',
+        skills: 'Online Learning - PHP',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
@@ -23,7 +23,7 @@ export const data = [
     }
     ,
     {
-        skills: 'Web Design',
+        skills: 'Meme - Generator',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
@@ -31,14 +31,14 @@ export const data = [
     }
     ,
     {
-        skills: 'Web Design',
+        skills: 'Simple Blog',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
         link: ''
     },
     {
-        skills: 'Web Design',
+        skills: 'Dynamic Input rendering',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
