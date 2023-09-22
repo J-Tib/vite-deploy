@@ -14,6 +14,8 @@ function App() {
     profession: 'PhotoGrapher',
     imgSrc: MyPic.toString()
   }
+  
+  console.log(person.imgSrc);
 
   return (
     <>

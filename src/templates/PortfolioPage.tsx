@@ -17,7 +17,7 @@ export default function PortfolioPage() {
         </div>
         <div className="Portfolio--Card">
             {data.map((data, index) => (
-                <Portfolio {...data} imgSrc={{backgroundImage: `url('.${imgArr[index]}')`}}/>
+                <Portfolio {...data} imgSrc={{backgroundImage: `url(.${imgArr[index]})`}}/>
             ))}
         </div>
     </section>
