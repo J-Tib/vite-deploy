@@ -1,7 +1,7 @@
 import './App.css'
 import HeaderPage from './templates/HeaderPage'
 import Home from './templates/Home'
-import MyPic from './assets/Majimbo.png'
+import MyPic from './Majimbo.png'
 import AboutPage from './templates/AboutPage'
 import ServicesPage from './templates/ServicesPage'
 import PortfolioPage from './templates/PortfolioPage'
