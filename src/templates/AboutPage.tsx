@@ -12,7 +12,7 @@ export default function AboutPage({ imgSrc, profession } : AboutProps) {
     return (
     <section className='about' id='About'>
         <div className='img-container'>
-            <img src={`.${imgSrc}`} alt="Person Image" />
+            <img src={imgSrc} alt="Person Image" />
         </div>
         <div className="about-content">
             <h2 className='heading'>About <span>Me</span></h2>
