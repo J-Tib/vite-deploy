@@ -1,4 +1,5 @@
 import ResBtn from "../components/ResBtn";
+import Pic from '../assets/Majimbo.png'
 
 interface HomeProps {
   name: string,
@@ -27,7 +28,7 @@ function Home( {name, profession, imgSrc} : HomeProps) {
             <ResBtn children="Download CV"/>
         </div>
           <div className="img-container">
-            <img src={imgSrc} alt=""/>
+            <img src={Pic} alt=""/>
           </div>
       </div>
     </section>
