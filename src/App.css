@@ -275,7 +275,7 @@ section {
 .title--contact h1 {
   text-align: center;
 }
-.table--form input, textarea{
+.table--form input, .table--form textarea{
   font-size: 1rem 10% 2rem; 
   letter-spacing: 2px;
   color: var(--bg-color);
@@ -304,7 +304,7 @@ textarea {
 .table--form {
   position: relative;
   display: grid;
-  width: 100%;
+  width: calc(100% - 5%);
   margin-bottom: 1rem;
   gap: 1rem;
 }
@@ -379,7 +379,15 @@ textarea {
   .Portfolio--Card, .Card-Container {
     grid-template-columns: 1fr;
     }
+}
+@media (max-width: 420px) {
+  .table--form {
+    grid-template-columns: 1fr;
   }
+  textarea {
+    grid-column-end: span 1;
+  }
+}
 /* END OF BREAKPOINTS */
 
 /* ANIMATIONS */
