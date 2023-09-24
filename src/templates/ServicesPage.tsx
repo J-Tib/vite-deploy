@@ -10,10 +10,7 @@ export default function ServicesPage() {
         </div>
         <div className="Card-Container">
             {itemService.map(item => (
-                <ServiceCard 
-                icon={item.icon}
-                title={item.title} 
-                details={item.details}/>
+                <ServiceCard key={item.id}{...item}/>
             ))}
         </div>
     </section>

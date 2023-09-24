@@ -5,6 +5,7 @@ import MyPic from './assets/Majimbo.png'
 import AboutPage from './templates/AboutPage'
 import ServicesPage from './templates/ServicesPage'
 import PortfolioPage from './templates/PortfolioPage'
+import ContactPage from './templates/ContactPage'
 
 function App() {
   const items = ['Home','About','Services', 'Portfolio', 'Contact']
@@ -24,6 +25,7 @@ function App() {
       <AboutPage {...person}/>
       <ServicesPage />
       <PortfolioPage />
+      <ContactPage />
     </>
   )
 }
