@@ -23,13 +23,13 @@ function App() {
     function scroll () {
         ScrollReveal({
         reset: true,
-        distance: '50px',
+        distance: '10px',
         duration: 2000,
         delay: 300
       })
       ScrollReveal().reveal('.home', { origin: 'top' })
-      ScrollReveal().reveal(`.home.img-container, .about, .contact,
-      .services, .portfolio`, { origin: 'bottom' })
+      ScrollReveal().reveal(`.home.img-container, .about,
+      .services, .portfolio, .contact`, { origin: 'bottom' })
     }
 
     return scroll;
