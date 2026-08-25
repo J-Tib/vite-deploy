@@ -6,7 +6,7 @@ export default function ServicesPage() {
   return (
     <section className="services" id="Services">
         <div className="title-service">
-            <h1>Our <span>Services</span></h1>
+            <h1>My <span>Services</span></h1>
         </div>
         <div className="Card-Container">
             {itemService.map(item => (

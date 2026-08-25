@@ -14,8 +14,8 @@ function App() {
   const items = ['Home','About','Services', 'Portfolio', 'Contact']
 
   const person = {
-    name: 'Karl Guerrero',
-    profession: 'PhotoGrapher',
+    name: 'Jhun Jhun Tibayan',
+    profession: 'Software Developer',
     imgSrc: MyPic.toString()
   }
   
