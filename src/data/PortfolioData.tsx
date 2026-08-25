@@ -10,11 +10,12 @@ export const data = [
     },
     {
         id: 2,
-        skills: 'Vanilla JS - Google Form',
-        detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Alias ea voluptatum cupiditate eum quos suscipit.
-        reprehenderit asperiores!`,
-        link: ''
+        skills: 'Request Certificate System - Municipality of Camiling (Office of the Municipal Mayor)',
+        detail: `Led end-to-end development of a comprehensive web and 
+        Android application for the Municipality of Camiling, 
+        enabling secure, real-time access to municipal 
+        data via the internet.`,
+        link: 'https://camilingom.vercel.app/'
     },
     {
         id: 3,
@@ -36,7 +37,7 @@ export const data = [
     ,
     {
         id: 5,
-        skills: 'Simple Blog',
+        skills: 'Google Form Clone - Vanilla JS',
         detail: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Alias ea voluptatum cupiditate eum quos suscipit.
         reprehenderit asperiores!`,
